@@ -3,7 +3,7 @@ const GOOD_LEAF_SIZE = 200
 // :: class<T> A rope sequence is a persistent sequence data structure
 // that supports appending, prepending, and slicing without doing a
 // full copy. It is represented as a mostly-balanced tree.
-class RopeSequence {
+export default class RopeSequence {
   // length:: number
   // The length of the rope.
 
