@@ -186,5 +186,3 @@ class Append extends RopeSequence {
     return new Append(this, other)
   }
 }
-
-module.exports = RopeSequence
